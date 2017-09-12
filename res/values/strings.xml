@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ICT_TimeTable</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_offline">Offline</string>
+    <string name="title_activity_online">Online</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_third_year_offline">ThirdYearOffline</string>
+    <string name="title_activity_pan_and_zoom_listener_cse3">PanAndZoomListenerCse3</string>
+    <string name="title_activity_pan_and_zoom_listener_cse4">PanAndZoomListenerCse4</string>
+    <string name="title_activity_pan_and_zoom_listener_activity_ec4">PanAndZoomListenerActivityEc4</string>
+    <string name="title_activity_pan_and_zoom_listener_activitycse2">PanAndZoomListenerActivitycse2</string>
+    <string name="title_activity_online_cse3_download">OnlineCse3Download</string>
+    <string name="title_activity_online_cse2_download">OnlineCse2Download</string>
+    <string name="title_activity_online_cse4_download">OnlineCse4Download</string>
+    <string name="title_activity_online_ec3_download">OnlineEc3Download</string>
+
+</resources>

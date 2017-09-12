@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ict.ict_timetable"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ict.ict_timetable.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ict.ict_timetable.Offline"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_offline" >
+        </activity>
+        <activity
+            android:name="com.ict.ict_timetable.Online"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_online" >
+        </activity>
+        <activity
+            android:name="com.ict.ict_timetable.AboutUs"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="com.ict.ict_timetable.ThirdYearOffline"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_third_year_offline" >
+        </activity>
+        <activity
+            android:name="com.ict.ict_timetable.PanAndZoomListenerCse3"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_pan_and_zoom_listener_cse3" >
+        </activity>
+        <activity
+            android:name="com.ict.ict_timetable.PanAndZoomListenerActivityCse4"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_pan_and_zoom_listener_cse4" >
+        </activity>
+        <activity
+            android:name="com.ict.ict_timetable.PanAndZoomListenerActivityEc4"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_pan_and_zoom_listener_activity_ec4" >
+        </activity>
+        <activity
+            android:name="com.ict.ict_timetable.PanAndZoomListenerActivitycse2"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_pan_and_zoom_listener_activitycse2" >
+        </activity>
+        <activity
+            android:name="com.ict.ict_timetable.OnlineCse3Download"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_online_cse3_download" >
+        </activity>
+        <activity
+            android:name="com.ict.ict_timetable.OnlineCse2Download"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_online_cse2_download" >
+        </activity>
+        <activity
+            android:name="com.ict.ict_timetable.OnlineCse4Download"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_online_cse4_download" >
+        </activity>
+        <activity
+            android:name="com.ict.ict_timetable.OnlineEc3Download"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_online_ec3_download" >
+        </activity>
+    </application>
+
+</manifest>
